@@ -1,0 +1,29 @@
+{
+  "name": "webkit-cssui-divider",
+  "description": "Webkit css ui module divider.",
+  "main": [
+    "dist/divider.css",
+    "dist/divider.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "divider"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
