@@ -1,7 +1,7 @@
 {
-  "name": "webkit-cssui-divider",
+  "name": "webkit-sassui-divider",
   "version": "0.0.0",
-  "description": "Webkit css ui module divider.",
+  "description": "Webkit sass ui module divider.",
   "homepage": "https://github.com/afeiship/webkit-cssui-divider",
   "author": {
     "name": "afei",

@@ -1,6 +1,6 @@
 {
-  "name": "webkit-cssui-divider",
-  "description": "Webkit css ui module divider.",
+  "name": "webkit-sassui-divider",
+  "description": "Webkit sass ui module divider.",
   "main": [
     "dist/divider.css",
     "dist/divider.scss"

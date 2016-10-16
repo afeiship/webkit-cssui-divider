@@ -1,5 +1,5 @@
-# webkit-cssui-divider
-> Webkit css ui module divider.
+# webkit-sassui-divider
+> Webkit sass ui module divider.
 
 ## usage:
 ```html
