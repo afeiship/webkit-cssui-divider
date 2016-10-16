@@ -1,12 +1,6 @@
 /*divider Start*/
-$divider-prefix: '.webkit-sassui-';
-$divider-text-bg: #f3f3f3;
-
-#{$divider-prefix}divider {
+.webkit-sassui-divider{
   position: relative;
-  min-height: 40px;
-  background: $divider-text-bg;
-
   &:after,
   &:before {
     position: absolute;
@@ -15,18 +9,26 @@ $divider-text-bg: #f3f3f3;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
   }
+}
 
-  &:before {
-    background: $divider-text-bg;
-    z-index: 2;
-    content: attr(data-divider-text);
-  }
+@mixin webkit-sassui-divider($inPrefix:'.webkit-sassui-',$inTextBg:'#f2f2f2'){
+  #{$inPrefix}divider {
+    min-height: 40px;
+    background: $inTextBg;
 
-  &:after {
-    content: '';
-    width: 100%;
-    height: 1px;
-    background: #ccc;
+    &:before {
+      background: $inTextBg;
+      z-index: 2;
+      content: attr(data-divider-text);
+    }
+
+    &:after {
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: #ccc;
+    }
   }
 }
+
 /*divider End*/

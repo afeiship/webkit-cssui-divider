@@ -1,8 +1,6 @@
 /*divider Start*/
 .webkit-sassui-divider {
   position: relative;
-  min-height: 40px;
-  background: #f3f3f3;
 }
 
 .webkit-sassui-divider:after, .webkit-sassui-divider:before {
@@ -11,19 +9,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-}
-
-.webkit-sassui-divider:before {
-  background: #f3f3f3;
-  z-index: 2;
-  content: attr(data-divider-text);
-}
-
-.webkit-sassui-divider:after {
-  content: '';
-  width: 100%;
-  height: 1px;
-  background: #ccc;
 }
 
 /*divider End*/
