@@ -1,5 +1,5 @@
 /*divider Start*/
-.webkit-sassui-divider{
+%webkit-sassui-divider{
   position: relative;
   &:after,
   &:before {
@@ -11,23 +11,21 @@
   }
 }
 
-@mixin webkit-sassui-divider($inPrefix:'.webkit-sassui-',$inTextBg:'#f2f2f2'){
-  #{$inPrefix}divider {
-    min-height: 40px;
+@mixin webkit-sassui-divider($inPrefix:'.webkit-sassui-',$inTextBg:'#f2f2f2', $inMinHeight: 40px){
+  @extend %webkit-sassui-divider;
+  min-height: $inMinHeight;
+  background: $inTextBg;
+  &:before {
     background: $inTextBg;
+    z-index: 2;
+    content: attr(data-divider-text);
+  }
 
-    &:before {
-      background: $inTextBg;
-      z-index: 2;
-      content: attr(data-divider-text);
-    }
-
-    &:after {
-      content: '';
-      width: 100%;
-      height: 1px;
-      background: #ccc;
-    }
+  &:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #ccc;
   }
 }
 
