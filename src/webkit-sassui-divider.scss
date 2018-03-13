@@ -11,7 +11,7 @@
   }
 }
 
-@mixin webkit-sassui-divider($inPrefix:'.webkit-sassui-',$inTextBg:'#f2f2f2', $inMinHeight: 40px){
+@mixin webkit-sassui-divider($inTextBg:'#f2f2f2', $inMinHeight: 40px){
   @extend %webkit-sassui-divider;
   min-height: $inMinHeight;
   background: $inTextBg;
