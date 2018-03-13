@@ -11,14 +11,14 @@
   }
 }
 
-@mixin webkit-sassui-divider($inTextBg:'#f2f2f2', $inMinHeight: 40px){
+@mixin webkit-sassui-divider($inTextBg:#f2f2f2, $inMinHeight: 40px){
   @extend %webkit-sassui-divider;
   min-height: $inMinHeight;
   background: $inTextBg;
   &:before {
     background: $inTextBg;
     z-index: 2;
-    content: attr(data-divider-text);
+    content: attr(data-content);
   }
 
   &:after {
