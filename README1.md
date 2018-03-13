@@ -1,9 +1,12 @@
 # webkit-sassui-divider
 > Webkit sass ui module divider.
 
+## demo:
++ https://afeiship.github.io/webkit-sassui-divider/
+
 ## usage:
 ```html
-<div class="divider" data-divider-text="我是万能的分隔线"></div>
+<div class="divider" data-content="我是万能的分隔线"></div>
 ```
 
 ## resources:
