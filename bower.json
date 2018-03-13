@@ -2,8 +2,8 @@
   "name": "webkit-sassui-divider",
   "description": "Webkit sass ui module divider.",
   "main": [
-    "dist/divider.css",
-    "dist/divider.scss"
+    "dist/webkit-sassui-divider.css",
+    "dist/webkit-sassui-divider.scss"
   ],
   "authors": [
     "afei"
@@ -11,10 +11,10 @@
   "license": "MIT",
   "keywords": [
     "webkit",
-    "cssui",
+    "sassui",
     "divider"
   ],
-  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "homepage": "https://github.com/afeiship/webkit-sassui-divider",
   "moduleType": [
     "amd"
   ],

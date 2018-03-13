@@ -1,12 +1,16 @@
 {
   "name": "webkit-sassui-divider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Webkit sass ui module divider.",
-  "homepage": "https://github.com/afeiship/webkit-cssui-divider",
+  "homepage": "https://github.com/afeiship/webkit-sassui-divider",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
+  "scripts": {
+    "build": "gulp"
+  },
+  "main": "dist/webkit-sassui-divider.scss",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
