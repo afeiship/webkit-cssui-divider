@@ -1,0 +1,31 @@
+/*divider Start*/
+.test-webkit-sassui-divider {
+  position: relative;
+}
+
+.test-webkit-sassui-divider:after, .test-webkit-sassui-divider:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+/*divider End*/
+.test-webkit-sassui-divider {
+  min-height: 40px;
+  background: #f2f2f2;
+}
+
+.test-webkit-sassui-divider:before {
+  background: #f2f2f2;
+  z-index: 2;
+  content: attr(data-content);
+}
+
+.test-webkit-sassui-divider:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}

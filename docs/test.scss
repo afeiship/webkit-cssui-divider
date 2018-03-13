@@ -1,0 +1,4 @@
+@import "../dist/webkit-sassui-divider.scss";
+.test-webkit-sassui-divider{
+  @include webkit-sassui-divider();
+}
