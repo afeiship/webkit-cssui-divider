@@ -1,4 +1,14 @@
 @import "../dist/webkit-sassui-divider.scss";
+.mb20_{
+  >*{
+    margin-bottom: 20px;
+  }
+}
 .test-webkit-sassui-divider{
   @include webkit-sassui-divider();
+}
+
+
+.test-webkit-sassui-divider2{
+  @include webkit-sassui-divider($inTextBg:#fff, $inMinHeight: 40px);
 }

@@ -1,9 +1,9 @@
 /*divider Start*/
-.test-webkit-sassui-divider {
+.test-webkit-sassui-divider, .test-webkit-sassui-divider2 {
   position: relative;
 }
 
-.test-webkit-sassui-divider:after, .test-webkit-sassui-divider:before {
+.test-webkit-sassui-divider:after, .test-webkit-sassui-divider2:after, .test-webkit-sassui-divider:before, .test-webkit-sassui-divider2:before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,6 +12,10 @@
 }
 
 /*divider End*/
+.mb20_ > * {
+  margin-bottom: 20px;
+}
+
 .test-webkit-sassui-divider {
   min-height: 40px;
   background: #f2f2f2;
@@ -24,6 +28,24 @@
 }
 
 .test-webkit-sassui-divider:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+
+.test-webkit-sassui-divider2 {
+  min-height: 40px;
+  background: #fff;
+}
+
+.test-webkit-sassui-divider2:before {
+  background: #fff;
+  z-index: 2;
+  content: attr(data-content);
+}
+
+.test-webkit-sassui-divider2:after {
   content: '';
   width: 100%;
   height: 1px;
